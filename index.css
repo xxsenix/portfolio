@@ -125,6 +125,8 @@
   
   /* NAV */
   .hamburger {
+    position: absolute;
+    right: 20px;
     margin-top: 5px;
     padding: 30px 0px 30px 30px;
     color:#999;
@@ -135,7 +137,8 @@
   }
   
   .cross {
-    margin-top: -10px;
+    position: absolute;
+    right: 20px;
     padding: 30px 0px 20px 30px;
     color:#999;
     border: 0;
@@ -279,16 +282,19 @@
     height: 58px;
     padding-left: 16px;
     border-left: 1px solid rgb(216,216,216);
-    margin: 80px 0 30px;
+    margin: 0 0 50px;
     line-height: 100%;
   }
   
   /* MOBILE-VIEW'S MANUAL MARGIN */
-  .main-about-container,
   .main-webdev-container,
   .main-contact-container,
   .section-photos {
     margin: 80px 14% 30px;
+  }
+
+  .main-about-container {
+    margin: 200px 14% 30px;
   }
   
   .about-self-portrait {
@@ -644,7 +650,17 @@
   }
   
   /*  RESPONSIVE DESIGN*/
-  
+  @media all and (max-width: 400px) {
+    .header-captions-mobile {
+        display: none
+    }
+
+    main {
+        margin-top: 50px;
+    }
+
+  }
+
   @media all and (max-width: 320px) {
     header h1 {
       font-size: 18px;
