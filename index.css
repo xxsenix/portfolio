@@ -604,7 +604,8 @@
     }
   
     .work-history,
-    .other-repos {
+    .other-repos,
+    .email-link {
       line-height: 10px;
       font-size: 1em;
     }
@@ -725,7 +726,8 @@
     }
   
     .work-history,
-    .other-repos {
+    .other-repos,
+    .email-link {
       font-weight: 600;
     }
   
@@ -1114,7 +1116,8 @@
     }
   
     .work-history,
-    .other-repos {
+    .other-repos,
+    .email-link {
       line-height: 10px;
       font-weight: 600;
       font-size: 1.1em;
