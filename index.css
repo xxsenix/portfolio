@@ -27,9 +27,14 @@
   }
   
   i {
-    font-size: 24px;
-    color: #999;
+    font-size: 30px;
+    color: black;
     text-align: center;
+    transition: all 0.2s ease;
+  }
+
+  i:hover {
+      color: tomato;
   }
   
   /*  BLINKING CURSOR  */
@@ -589,14 +594,15 @@
   
     .work-repo-ul {
       flex: 1 50%;
-      padding-left: 30px;
+      padding-left: 16px;
       border-left: 1px rgb(216,216,216) solid;
-      list-style-type: square;
+      list-style: none;
     }
   
     .work-repo-ul > * {
       font-size: 1em;
       line-height: 22px;
+      padding: 5px;
     }
   
     .self-portrait-2 {
@@ -1100,14 +1106,15 @@
   
     .work-repo-ul {
       flex: 1 40%;
-      padding-left: 30px;
+      padding-left: 16px;
       border-left: 1px rgb(216,216,216) solid;
-      list-style-type: square;
+      list-style: none;
     }
   
     .work-repo-ul > * {
-      font-size: 0.9em;
+      font-size: 1em;
       line-height: 22px;
+      padding: 5px;
     }
   
     .self-portrait-2 {
